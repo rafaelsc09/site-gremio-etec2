@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f0f2f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:white;
+    padding:40px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+}
+
+.botao{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 30px;
+    background:#6264A7; /* Cor do Teams */
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.botao:hover{
+    background:#4b4d8f;
+}
